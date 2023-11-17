@@ -1,7 +1,7 @@
 module OpenGLInterface
 import GLFW
 using ModernGL
-
+    
     GLFW.Init()
     GLFW.WindowHint(GLFW.CONTEXT_VERSION_MAJOR, 3);
     GLFW.WindowHint(GLFW.CONTEXT_VERSION_MINOR, 3);
